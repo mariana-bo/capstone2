@@ -1,0 +1,251 @@
+body {
+    margin: 0px;  
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #edbb0e;
+    background-size: cover;
+    text-align: center;
+}
+
+.nav ul li {
+    float: left;
+}
+
+.nav ul li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18px;
+}
+
+/* Change the link color to #111 (black) on hover */
+.nav ul li a:hover {
+    background-color: #9ea053;
+}
+
+.home {
+    margin: 0px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background-image: url(./assets/background.jpg);
+    background-size: cover;
+}
+
+.home h1 {
+    display: block;
+    font-family: "Danfo", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-variation-settings: "ELSH" 0;
+    font-size: 80px;
+    color: #9ea053;
+}
+
+.home h2 {
+    display: block;
+    color: #9ea053;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 40px;
+}
+
+.about-me {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background-color: white;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.profile-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.about-me h2 {
+    display: block;
+    color: #9ea053;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 40px;
+}
+
+.about-me p {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    color: #9ea053;
+    padding-bottom: 50px;
+}
+
+.about-me a {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: #caa2c4;
+    padding-bottom: 50px;
+}
+
+hr {
+    border-top: 5px dotted #9ea053;
+    width: 60px;
+}
+
+.skills ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+    display: inline-block;
+    color: #9ea053;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 320;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.skills ul li {
+    margin: 15px 0;
+}
+
+.previous-work {
+    background-color: #edbb0e;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 50px;
+    background-size: cover;
+}
+
+.proj {
+    flex: 1;
+    height: 200px;
+    border: 3px solid white;
+}
+
+.previous-work h2 {
+    display: block;
+    color: white;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 40px;
+}
+
+.previous-work h3 {
+    display: block;
+    color: white;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 22px;
+    padding-bottom: 0;
+    margin-bottom: 5px; 
+    margin-top: 10px;
+}
+
+.previous-work p {
+    display: block;
+    color: white;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 18px;
+    padding-top: 0; 
+    margin-top: 0px;
+    margin-bottom: 20px;
+    padding-bottom: 40px
+}
+
+.contact-me {
+    background-image: url(./assets/background.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 50px;
+    background-size: cover;
+}
+
+.contact-me h2 {
+    display: block;
+    color: black;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 40px;
+}
+
+.contact-me p {
+    display: block;
+    color: black;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.contact-me a {
+    display: block;
+    color: black;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.footer {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: #edbb0e;
+    background-size: cover;
+}
